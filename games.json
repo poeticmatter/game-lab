@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Hex Tag",
+    "description": "Tag on a hex grid. Both players secretly commit a move and a prediction of where the opponent will end up.",
+    "url": "https://poeticmatter.github.io/HexTagChase/",
+    "repo": "https://github.com/poeticmatter/HexTagChase"
+  },
+  {
+    "title": "Game Template",
+    "description": "The starting point for new lab games. Its example game is rock-paper-scissors.",
+    "url": "https://poeticmatter.github.io/game-template/",
+    "repo": "https://github.com/poeticmatter/game-template"
+  }
+]
