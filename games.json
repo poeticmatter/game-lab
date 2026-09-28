@@ -6,6 +6,12 @@
     "repo": "https://github.com/poeticmatter/HexTagChase"
   },
   {
+    "title": "Flow Fighter",
+    "description": "A two-player fighting duel. Work in progress.",
+    "url": "https://poeticmatter.github.io/FlowFighter/",
+    "repo": "https://github.com/poeticmatter/FlowFighter"
+  },
+  {
     "title": "Game Template",
     "description": "The starting point for new lab games. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",

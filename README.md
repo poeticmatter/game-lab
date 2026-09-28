@@ -20,4 +20,5 @@ All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The f
 | Game | Table |
 |---|---|
 | Hex Tag | `hextag_games` |
+| Flow Fighter | `flow_games` |
 | Game Template | `template_games` |
