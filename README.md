@@ -15,7 +15,7 @@ Each game is its own repository and deploys to its own GitHub Pages path. This r
 
 ## Shared Supabase project
 
-All games share one Supabase project. Each game owns its own table, `<game-id>_games`, created by the migration in that game's repo:
+All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The free plan pauses idle projects, so `.github/workflows/supabase-keepalive.yml` sends it a cheap read every three days. Each game owns its own table, `<game-id>_games`, created by the migration in that game's repo:
 
 | Game | Table |
 |---|---|
