@@ -12,6 +12,12 @@
     "repo": "https://github.com/poeticmatter/FlowFighter"
   },
   {
+    "title": "Delivery Van",
+    "description": "Plan your route, deliver the parcels. Play solo, live or async.",
+    "url": "https://poeticmatter.github.io/DeliveryVan/",
+    "repo": "https://github.com/poeticmatter/DeliveryVan"
+  },
+  {
     "title": "Game Template",
     "description": "The starting point for new lab games. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",
