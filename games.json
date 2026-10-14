@@ -18,6 +18,12 @@
     "repo": "https://github.com/poeticmatter/DeliveryVan"
   },
   {
+    "title": "Votes",
+    "description": "Build districts, bring in families, win the seats when cities merge. For 2–5 players.",
+    "url": "https://poeticmatter.github.io/Votes/",
+    "repo": "https://github.com/poeticmatter/Votes"
+  },
+  {
     "title": "Game Template",
     "description": "The starting point for new lab games. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",
