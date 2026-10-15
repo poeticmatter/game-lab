@@ -6,7 +6,11 @@ Each game is its own repository and deploys to its own GitHub Pages path. This r
 
 ## Adding a game
 
-1. Create the game from [poeticmatter/game-template](https://github.com/poeticmatter/game-template) (see its README).
+1. Create the game from a template (see its README):
+   - [game-template](https://github.com/poeticmatter/game-template): two players choose secretly at the same time.
+   - [game-template-turns](https://github.com/poeticmatter/game-template-turns): 2–5 players take turns in order.
+
+   Both get their multiplayer platform (lobby, async, live and hot-seat play) from [GameKit](https://github.com/poeticmatter/GameKit), pinned to a release tag.
 2. Add an entry to `games.json`:
    ```json
    { "title": "…", "description": "…", "url": "https://poeticmatter.github.io/<Repo>/", "repo": "https://github.com/poeticmatter/<Repo>" }
@@ -15,7 +19,7 @@ Each game is its own repository and deploys to its own GitHub Pages path. This r
 
 ## Shared Supabase project
 
-All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The free plan pauses idle projects, so `.github/workflows/supabase-keepalive.yml` sends it a cheap read every three days. Each game owns its own table, `<game-id>_games`, created by the migration in that game's repo:
+All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The free plan pauses idle projects, so `.github/workflows/supabase-keepalive.yml` sends it a cheap read every three days. Each game owns its own table, `<game-id>_games` (turn-based games also have a `<game-id>_claim_seat` function), created by the migrations in that game's repo:
 
 | Game | Table |
 |---|---|
@@ -24,3 +28,4 @@ All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The f
 | Delivery Van | `van_games` |
 | Votes | `votes_games` |
 | Game Template | `template_games` |
+| Turn-Based Game Template | `template_turns_games` |
