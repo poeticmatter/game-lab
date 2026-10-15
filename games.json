@@ -25,8 +25,14 @@
   },
   {
     "title": "Game Template",
-    "description": "The starting point for new lab games. Its example game is rock-paper-scissors.",
+    "description": "The starting point for two-player lab games where both choose at the same time. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",
     "repo": "https://github.com/poeticmatter/game-template"
+  },
+  {
+    "title": "Turn-Based Game Template",
+    "description": "The starting point for lab games where 2–5 players take turns in order. Its example game is Pig, a push-your-luck dice game.",
+    "url": "https://poeticmatter.github.io/game-template-turns/",
+    "repo": "https://github.com/poeticmatter/game-template-turns"
   }
 ]
