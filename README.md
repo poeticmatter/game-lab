@@ -27,5 +27,6 @@ All games share one Supabase project, `game-lab` (`zavdrnttsfcupopdidda`). The f
 | Flow Fighter | `flow_games` |
 | Delivery Van | `van_games` |
 | Votes | `votes_games` |
+| Kowloon | `kowloon_games` |
 | Game Template | `template_games` |
 | Turn-Based Game Template | `template_turns_games` |

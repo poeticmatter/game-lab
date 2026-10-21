@@ -24,6 +24,12 @@
     "repo": "https://github.com/poeticmatter/Votes"
   },
   {
+    "title": "Kowloon",
+    "description": "Stack polycube towers in 3D without blocking anyone's windows. Sandbox for 2–5 players.",
+    "url": "https://poeticmatter.github.io/Kowloon/",
+    "repo": "https://github.com/poeticmatter/Kowloon"
+  },
+  {
     "title": "Game Template",
     "description": "The starting point for two-player lab games where both choose at the same time. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",
