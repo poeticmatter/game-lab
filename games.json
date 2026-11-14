@@ -30,6 +30,12 @@
     "repo": "https://github.com/poeticmatter/Kowloon"
   },
   {
+    "title": "Colony Collapse",
+    "description": "Program your actions in secret, then campaign for the hive's districts. Win over one-issue voters. For 2–5 players.",
+    "url": "https://poeticmatter.github.io/ColonyCollapse/",
+    "repo": "https://github.com/poeticmatter/ColonyCollapse"
+  },
+  {
     "title": "Game Template",
     "description": "The starting point for two-player lab games where both choose at the same time. Its example game is rock-paper-scissors.",
     "url": "https://poeticmatter.github.io/game-template/",
