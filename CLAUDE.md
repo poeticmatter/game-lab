@@ -6,9 +6,9 @@ This is the hub of the user's **game lab**: a collection of multiplayer web game
 
 - **One repo per game**, cloned next to this one in `C:\Code\<Repo>`. Each game is standalone and deploys to `https://poeticmatter.github.io/<Repo>/`, so it can later be taken full-scale on its own.
 - **Templates:** every game is created from one of two templates, each with a replaceable `src/game/` and an example game. Their READMEs and CLAUDE.mds describe the game contract.
-  - `poeticmatter/game-template` (local copy: `C:\Code\game-template`): two players choose secretly at the same time, then the turn resolves. Example: rock-paper-scissors.
-  - `poeticmatter/game-template-turns` (local copy: `C:\Code\game-template-turns`): 2–5 players take turns in order, with names and seats. Example: Pig.
-- **GameKit** (`poeticmatter/GameKit`, local copy: `C:\Code\GameKit`): the shared multiplayer platform both templates use (lobby, Supabase async play, PeerJS live play, hot seat), with one entry point per kind of game (`game-kit/simultaneous`, `game-kit/turns`). Games pin it to a release tag in `package.json` and bump it deliberately. Older games (Hex Tag, Flow Fighter, Delivery Van) still carry their own copy in `src/platform/`.
+  - `poeticmatter/game-template` (local copy: `C:\Code\digital-board-games\game-template`): two players choose secretly at the same time, then the turn resolves. Example: rock-paper-scissors.
+  - `poeticmatter/game-template-turns` (local copy: `C:\Code\digital-board-games\game-template-turns`): 2–5 players take turns in order, with names and seats. Example: Pig.
+- **GameKit** (`poeticmatter/GameKit`, local copy: `C:\Code\digital-board-games\GameKit`): the shared multiplayer platform both templates use (lobby, Supabase async play, PeerJS live play, hot seat), with one entry point per kind of game (`game-kit/simultaneous`, `game-kit/turns`). Games pin it to a release tag in `package.json` and bump it deliberately. Older games (Hex Tag, Flow Fighter, Delivery Van) still carry their own copy in `src/platform/`.
 - **Shared Supabase project:** `game-lab`, project ref `zavdrnttsfcupopdidda` (reachable through the Supabase MCP). Each game owns its own table, `<game-id>_games`. The ids in use are listed in the README table.
 - **Keep-alive:** `.github/workflows/supabase-keepalive.yml` pings the project every 3 days so the free plan doesn't pause it.
 - Games never import from this hub or from each other.
